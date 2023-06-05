@@ -9,11 +9,13 @@ export class FirstComponent {
 
 prenom : String = "je mappelle JeanJean";
 
-color = 'yellow';
+color = 'green';
+
+hd=false;
 
 
 traitement() {
-  this.color = 'green';
+  alert("bonjour");
 }
 
 
